@@ -1,0 +1,570 @@
+body {
+    background-color: #0a142f;
+    color: #ffffff;
+    font-family: inter, sans-serif;
+    width: 90rem;
+    height: 456rem;
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+    display: flex;
+  }
+  
+  .logo {
+    margin-left: 5rem;
+    margin-right: 14rem;
+  }
+  
+  .nav a {
+    font-size: 1.125rem;
+  }
+  
+  .nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline;
+    margin: 3.125rem;
+    margin-right: 4rem;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a :hover {
+    text-decoration: underline;
+  }
+  
+  .href {
+    background-color: #ffc93e;
+    color: #0a142f;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 3.125rem;
+    padding: 1rem 2rem;
+    border-color: #ffffff;
+    border: solid;
+    border-width: 0.125rem;
+  }
+  
+  .world {
+    display: flex;
+    flex-flow: row wrap;
+    width: 91.1875rem;
+    height: 68.25rem;
+    margin-bottom: 13rem;
+  }
+  
+  .h1 {
+    display: inline;
+    text-align: center;
+    margin-left: 22rem;
+  }
+  
+  .h1 h1 {
+    font-size: 7rem;
+  }
+  
+  .wc {
+    font-size: 1rem;
+    border: solid;
+    border-color: #ffffff;
+    width: 6rem;
+    transform: rotate(332deg);
+  }
+  
+  .h1 p {
+    font-size: 1.7rem;
+  }
+  
+  .img1 {
+    margin-top: 15rem;
+    margin-left: 2rem;
+  }
+  
+  main {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+  
+  main img {
+    margin-left: 4rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+  
+  .main h2 {
+    font-size: 3rem;
+  }
+  
+  .main p {
+    font-weight: 200;
+    color: #878889;
+  }
+  
+  .main a {
+    margin-top: 1rem;
+    width: 7rem;
+  }
+  
+  .text {
+    margin-right: 2rem;
+  }
+  
+  .cifras {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 13rem;
+  }
+  
+  .list1 {
+    margin-right: 12rem;
+  }
+  
+  .list1´5 {
+    margin-left: 8rem;
+  }
+  
+  .cifras dt {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .cifras dd {
+    font-size: 2rem;
+  }
+  
+  .our {
+    display: flex;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 201, 62, 1) 33%,
+      rgba(53, 63, 91, 1) 34%
+    );
+  }
+  
+  .our img {
+    order: 1;
+    margin-right: 2rem;
+    height: 42rem;
+    padding: 4rem;
+  }
+  
+  .solution {
+    order: 2;
+    padding: 1rem;
+  }
+  
+  .solution h2 {
+    font-size: 3.5rem;
+  }
+  
+  .list2 {
+    list-style-type: none;
+  }
+  
+  .list2 {
+    list-style-image: url(img/check.png);
+  }
+  
+  .list2 h3 {
+    font-size: x-large;
+  }
+  
+  .list2 p {
+    font-size: medium;
+  }
+  
+  .wecan {
+    width: 78rem;
+    height: 85rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-bottom: 12rem;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .service2 {
+    margin-left: 23rem;
+    margin-top: 7rem;
+  }
+  
+  .href2 {
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    height: 2rem;
+    border-radius: 3.125rem;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 1rem 2rem;
+    border-width: 0.03rem;
+    margin-top: 0.5rem;
+  }
+  
+  .block p {
+    padding: 2rem;
+  }
+  
+  .block h2 {
+    font-size: 5rem;
+    width: 38rem;
+    margin-left: 4rem;
+  }
+  
+  .contenedores {
+    margin-left: 2rem;
+  }
+  
+  .contenedor1 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+  
+  .contenedor1´1 {
+    display: flex;
+  }
+  
+  .icono {
+    background-color: #353f5b;
+    border-top-left-radius: 15px;
+    height: 33rem;
+    width: 35rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    padding: 1rem;
+  }
+  
+  .icono h3 {
+    font-size: 2.5rem;
+  }
+  
+  .icono a {
+    margin-left: 1rem;
+  }
+  
+  .icono p {
+    font-size: 1.2rem;
+  }
+  
+  .icono2 {
+    background-color: #353f5b;
+    border-top-right-radius: 15px;
+    height: 33rem;
+    width: 35rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .icono2 h3 {
+    font-size: 2.5rem;
+  }
+  
+  .icono2 a {
+    margin-left: 1rem;
+  }
+  
+  .icono2 p {
+    font-size: 1.2rem;
+  }
+  
+  .icono3 {
+    background-color: #353f5b;
+    border-bottom-left-radius: 15px;
+    height: 33rem;
+    width: 35rem;
+    margin-right: 2rem;
+    padding: 1rem;
+  }
+  
+  .icono3 h3 {
+    font-size: 2.5rem;
+  }
+  
+  .icono3 a {
+    margin-left: 1rem;
+  }
+  
+  .icono3 p {
+    font-size: 1.2rem;
+  }
+  
+  .icono4 {
+    background-color: #353f5b;
+    border-bottom-right-radius: 15px;
+    height: 33rem;
+    width: 35rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .icono4 h3 {
+    font-size: 2.5rem;
+  }
+  
+  .icono4 a {
+    margin-left: 1rem;
+  }
+  
+  .icono4 p {
+    font-size: 1.2rem;
+  }
+  
+  .our2 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .our2 h2 {
+    font-size: 4rem;
+  }
+  
+  .nav2 ol {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .nav2 li {
+    display: inline;
+    margin: 0 3.125rem;
+  }
+  
+  .contenedor2 {
+    display: flex;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+  }
+  
+  .cv {
+    text-align: initial;
+    margin-right: 7rem;
+  }
+  
+  .cv h3 {
+    font-size: 1.7rem;
+    width: 29rem;
+  }
+  
+  .cv p {
+    width: 34rem;
+  }
+  
+  .cv2 {
+    text-align: initial;
+  }
+  
+  .cv2 h3 {
+    font-size: 1.7rem;
+    width: 29rem;
+  }
+  
+  .cv2 p {
+    width: 34rem;
+  }
+  
+  .happy {  
+    margin-bottom: 7rem;
+    margin-left: 2rem;
+  }
+  
+  .happy h2 {
+    font-size: 4rem;
+    width: 33rem;
+    margin-left: 2rem;
+  }
+  
+  .happydiv {
+    display: flex;
+  }
+  
+  .pepe {
+    border-radius: 2rem;
+    width: 42rem;
+    height: 27rem;
+    background-color: #ffffff1e;
+    padding: 1rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .pepe p {
+    font-size: 1.4rem;
+  }
+  
+  .pepe2 {
+    border-radius: 2rem;
+    width: 42rem;
+    height: 27rem;
+    background-color: #ffffff1e;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .pepe2 p {
+    font-size: 1.4rem;
+  }
+  
+  .blog {
+    width: 71rem;
+    height: 42rem;
+  }
+   
+  .blog h2 {
+    font-size: 3.2rem;
+    margin-left: 6rem;
+  }
+  
+  .contenedor3 {
+    display: flex;
+  }
+  
+  .gente {
+    margin-left: 7rem;
+  }
+  
+  .gente h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .p2 {
+    color: #ffc93e;
+    background-color: #ffffff;
+    border-radius: 5rem;
+    padding: 0.2rem;
+  }
+  
+  .tech {
+    width: 7rem;
+  }
+  
+  .web {
+    width: 5rem;
+  }
+  
+  footer {
+    width: 90rem;
+    height: 31rem;
+    background-color: #ffffff1e;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
+    flex-direction: row;
+    align-content: flex-end;
+  }
+  
+  .footer {
+    display: flex;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .form2 {
+    color: black;
+    background-color: #ffc93e;
+    border-radius: 0.9375rem;
+    width: 25rem;
+    height: 5rem;
+    margin-right: 3rem;
+    padding: 5.5rem 6rem 3rem 6rem;
+    margin-left: 9rem;
+    margin-top: 8rem;
+  }
+  
+  .labelemail {
+    background-color: #ffc93e;
+    border: none;
+  }
+  
+  .label {
+    font-size: 1.03rem;
+  }
+  
+  .input {
+    border-color: #ffc93e;
+    border-style: solid;
+    border-bottom-color: #0a142f;
+  }
+  .inputfinal{
+    background-color: #ffc93e;
+    border: none  ;
+    margin-left: 13rem;
+  }
+  
+  .office {
+    margin-top: 9.5rem;
+    margin-left: 3rem;
+    margin-right: 6rem;
+  }
+  
+  .contact {
+    margin-top: 9.5rem;
+  }
+  
+  .text2 {
+    display: flex;
+  }
+  
+  .text2 h5 {
+    font-size: 1.07rem;
+  }
+  
+  .text2 p {
+    font-weight: 300;
+  }
+  
+  .div2 {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+  }
+  
+  .text3 {
+    margin-left: 10rem;
+    margin-top: 3.5rem;
+  }
+  
+  .text5 {
+    margin-left: 19rem;
+    margin-top: 2.3rem;
+    display: flex;
+  }
+  
+  .parrafo4 {
+    margin-top: 3rem;
+    display: flex;
+  }
+  
+  .text6 {
+    margin-left: 4rem;
+  }
+  
+  .redes {
+    margin-left: 24rem;
+    margin-top: 2.7rem;
+  }
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1 class="sr">Proyecto final</h1>
+  <header class="header">
+    <nav>
+    <ol class="lista1">
+      <img src="Imagenes/Inicio/Logo.webp" alt="Logo" class="logo">
+      <li><a href="cv.html">Sobre mi</a></li>
+      <li><a href="Portafolio.html">Mis trabajos</a></li>
+      <li><a href="Contacto.html">Contacto</a></li>
+      <li><a href="Index.html">Inicio</a></li>
+    </ol>
+    </nav>
+  </header>
+  <main class="main1">
+  <h2>Feedback</h2>
+  <div>
+    <form action="/action_page.php" class="form">
+    <div>
+      <label for="Nombre">Nombre</label>
+      <input type="text" id="Nombre" name="Nombre" placeholder="Su nombre">
+    </div>
+    <div>
+      <label for="Apellido">Apellido</label>
+      <input type="text" id="Apellido" name="Apellido" placeholder="Su apellido">
+    </div>
+    <div>
+      <label for="Correo">Inserte su correo</label>
+      <input type="email" id="Correo" name="correo" placeholder="Inserte su correo">
+    </div>
+    <div>
+      <label for="Motivodecontacto">Motivo de contacto</label>
+      <select id="Motivodecontacto" name="Contacto">
+        <option value="Curiosidad">Curiosidad</option>
+        <option value="Solicitud">Solicitud</option>
+        <option value="Ofrecimiento laboral">Ofrecimieto laboral</option>
+      </select>
+    </div>
+    <div>
+      <label for="subject">Comentario</label>
+      <textarea id="subject" name="subject" placeholder="Deja tu comentario..."></textarea>
+      <input type="submit" value="Enviar">
+    </div>
+    </form>
+  </div>
+  </main>
+  <footer class="footer">
+    <address>
+      <h2>Contactame</h2>
+      <p>Ian Lara <a href="mailto:ianlarace@gmail.com">ianlarace@gmail.com</a> - 7055-8770</p>
+    </address>
+    <div class="lista2">
+    <ul>
+      <li><a href="https://es-la.facebook.com/"><img src="Imagenes/Inicio/Facebook.png.webp" alt="Facebook"></a></li>
+      <li><a href="https://twitter.com/?lang=es"><img src="Imagenes/Inicio/Twitter.png" alt="Twitter"></a></li>
+      <li><a href="https://www.instagram.com/"><img src="Imagenes/Inicio/Instagram.png" alt="Instagram"></a></li>
+      <li><a href="https://github.com/"><img src="Imagenes/Inicio/Github.png" alt="Github"></a></li>
+    </ul>
+      </div>
+      <img src="imagenes/Inicio/Cetav.jpeg" alt="Cetav">
+    </footer>
+  </body>

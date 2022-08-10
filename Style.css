@@ -1,0 +1,122 @@
+/*Index*/ 
+
+.sr{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.header{
+  display: flex;
+  border: .125rem solid black;
+  margin:0rem;
+  background-color: #003446;
+  color:white;
+}
+
+.logo{
+  max-width: 30%;
+}
+
+.lista1 li{
+  display: inline-flex;
+  list-style-type: none;
+  margin: .625rem;
+  color: white;
+}
+
+.lista1 a{
+  color:white
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main1 {
+  border: .125rem solid black;
+  margin: 0rem; 
+  background-color: whitesmoke;
+  color: black;
+}
+
+.img{
+  display: inline;
+}
+
+.portafolio a{
+  color:black;
+}
+
+.footer{
+  border: .125rem solid black;
+  margin: 0rem; 
+  background-color: yellowgreen;
+  color: black;
+}
+
+.lista2 li{
+  margin: .625rem;
+  display:inline;
+  padding-left:.1875rem;
+  padding-right:.1875rem;
+  margin-inline-start: 0rem;
+  padding-inline-start: 2.5rem;
+  float: right;
+}
+
+.lista2 img{
+  width: 5rem;
+  margin: .625rem; 
+}
+
+dl{
+  display: flex;
+  margin: .625rem;
+  padding-left:.1875rem;
+  padding-right:.1875rem;
+  margin-inline-start: 0rem;
+  padding-inline-start: 2.5rem;
+}
+
+.proyectos{
+  width:50rem;
+  padding: 2rem;
+}
+
+/* cv */
+
+.main2 {
+  font-family: cursive, arial, sans-serif;
+  border: .125rem solid black;
+  margin: 0rem; 
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* portafolio */
+
+.section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section div{
+  margin: 1rem;
+}
+
+/* contacto */
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.form div{
+  margin: 1rem;
+}
